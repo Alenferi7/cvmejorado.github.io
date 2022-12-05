@@ -1,0 +1,108 @@
+body{
+    background-color: #3EB2FA;
+}
+
+.navphoto{
+    height: 50px;
+    width: 50px;
+    border-radius: 200px;
+    display: block;
+    margin: auto;
+}
+
+
+.fotoPerfil{
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    display: block;
+    margin: auto;
+}
+
+header{
+    position: relative;
+    top: 100px;
+    background-color: #FF9E1F;
+}
+
+header h1, header h2{
+    text-align: center;
+    top: 200px;
+    display: block;
+}
+
+.headerh1{
+    background-color: #FFB947;
+}
+
+.navbar{
+    position: fixed;
+    z-index: 100;  
+    width: 100%;
+}
+
+.especifico{
+    position: relative;
+    text-align: center;
+    top: 120px;
+    background-color: #FFB947;
+    border-radius: 15px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    position: relative;
+    top: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h5{
+    text-align: center;
+}
+
+.especificodos{
+    position: relative;
+    text-align: center;
+    top: 170px;
+    background-color: #FFB947;
+    border-radius: 15px;
+}
+
+.main2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+footer{
+    position: relative;
+    background-color: #FF9E1F;
+    top: 250px;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px){
+    body{
+        background-color: black;
+    }
+    .card{
+        position: relative;
+        top: 150px;
+        margin-bottom: 20px;
+    }
+
+    main{
+        display: block;
+        justify-content: center;
+    }
+
+    .main2{
+        display: block;
+        justify-content: center;
+    }
+}
